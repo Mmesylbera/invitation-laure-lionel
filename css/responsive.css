@@ -1,0 +1,44 @@
+@media screen and (max-width: 600px) {
+    .couple-photo-frame {
+        width: 10%;
+        aspect-ratio: 0.57;
+
+        left: 50%;
+        top: 43%;
+
+        border-radius: 25px;
+    }
+    .couple-photo {
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+@media screen and (min-width: 601px) 
+     and (max-width: 1024px){
+   .couple-photo-frame {
+        width: 31%;
+        aspect-ratio: 0.57;
+
+        left: 50%;
+        top: 43%;
+    }
+    .couple-photo {
+        object-fit: cover;
+        object-position: center center;
+    }
+    }
+
+@media screen and (min-width: 1025px) {
+   .couple-photo-frame {
+        width: 29%;
+        aspect-ratio: 0.57;
+
+        left: 50%;
+        top: 43%;
+    }
+    .couple-photo {
+        object-fit: cover;
+        object-position: center center;
+    }
+}
