@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Confirmation de présence</title>
+         <link rel="stylesheet" href="css/style.css">
+         <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    </head>
+    <body class="confirmation-page">
+        <div class="confirmation-background"></div>
+            <div class="confirmation-overlay"></div>
+            <main class="confirmation-content"> 
+                <p class="confirmation-intro">Vous etes invité(e) au mariage de</p>
+                <h1>Laure<span>&amp;</span>Lionel</h1>
+                <div class="confirmation-date"><span></span>Samedi 24 octobre 2026<span></span></div>
+                <button 
+                type="button" 
+                class="rsvp-button" 
+                id="confirmPresenceButton">
+            Confirmer sa présence</button>
+            <div class="guestForm" 
+             id="guestForm">
+             <div class="form-decoration"></div>
+             <h2>Confirmer votre présence</h2>
+             <p class="form-description">Merci de bien vouloir renseigner votre nom
+                   afin de confirmer votre présence au mariage.
+             </p>
+              <label for="guestName">Nom et prénom</label>
+               <input type="text" id="guestName" placeholder="Entrez votre nom et prenom" autocomplete="name">
+                <button type="button" class="submit-button" id="sendConfirmation">Valider ma présence<span></span></button>
+                <p class="confirmation-message" id="confirmationMessage"></p>
+                <div class="secure-message">Vos informations sont securisées</div>
+            </div>
+            </main>
+        <script src="js/confirmation.js"></script>
+    </body>
+</html> 
