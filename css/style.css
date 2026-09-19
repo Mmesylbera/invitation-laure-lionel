@@ -682,6 +682,167 @@ body.invitation-open {
     font-size: 12px;
 }
 
+.story-photo {
+    position: relative;
+    width: 1000%;
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.story-photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+}
+
+.love-story {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 55px 60px;
+    box-sizing: border-box;
+    color: var(--forest-green);
+}
+
+.story-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 12px;
+}
+
+.story-line {
+    width: 75px;
+    height: 1px;
+    background: var(--gold);
+}
+
+.story-heart {
+    color: var(--gold);
+    font-size: 32px;
+}
+
+.story-title {
+    text-align: center;
+    margin: 0;
+    font-size: 17px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.story-names {
+    text-align: center;
+    margin: 12px 0 5px;
+    font-family: "Great Vibes", cursive;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.story-names span {
+    color: var(--gold);
+}
+
+.story-intro {
+    text-align: center;
+    margin: 0 0 50px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 19px;
+}
+
+.story-block {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    width: 48%;
+    margin: 0 0 25px;
+}
+
+.story-icon {
+    flex: 0 0 58px;
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    color: var(--gold);
+    font-size: 48px;
+    line-height: 1;
+}
+
+.story-icon.rings {
+    font-size: 42px;
+}
+
+.story-text h3 {
+    margin: 3px 0 10px;
+    font-size: 19px;
+    letter-spacing: 3px;
+}
+
+.story-text p {
+    margin: 0;
+    line-height: 1.7;
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+.future-married {
+    width: 100%;
+    margin-top: 50px;
+    padding: 30px 25px;
+    box-sizing: border-box;
+    border: 2px solid var(--gold);
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.55);
+}
+
+.future-married h3 {
+    margin: 15px 0 ;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.future-married p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: Georgia, serif;
+    font-size: 17px;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+.future-decoration.bottom {
+    margin-top: 20px;
+}
+
+.story-separator {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin: 15px 0 25px;
+    color: var(--gold);
+    font-size: 24px;
+}
+
+.story-separator span:first-child,
+.story-separator span:last-child {
+    width: 55px;
+    height: 1px;
+    background-color: var(--gold);
+}
+
+
 @media (max-width: 600px) {
     .confirmation-content {
         padding: 35px 18px;

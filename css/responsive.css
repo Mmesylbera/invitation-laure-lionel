@@ -1,60 +1,320 @@
 @media screen and (max-width: 600px) {
     .couple-photo-frame {
-        width: 40%;
-        aspect-ratio: 0.57;
-
+        width: 31.1%;
+        height: 58.4%;
         left: 50%;
-        top: 43%;
-
-        border-radius: 25px;
-        transform: translateX(-50%);
+        top: 58.7%;
+        transform: translate(-50%, -50%);
+        border-radius: 8%;
         overflow: hidden;
     }
     .couple-photo {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: center center;
+        object-position: center 35%;
         display: block;
+        border-radius: inherit;
+    }
+    .gift-icon {
+        padding: 2rem 1.2rem;
+    }
+    .gifts-text {
+        width: 100%;
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        word-wrap: break-word;
+    }
+    .wedding-gifts {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+        overflow: hidden;
+    }
+    .gifts-script {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gifts-content h2 {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gifts-subtitle {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+    .gifts-content {
+        max-width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+    .love-story {
+        width: 100%;
+        max-width: 100%;
+        padding: 40px 18px;
+        box-sizing: border-box;
+    }
+
+    .story-line {
+        width: 38px;
+    }
+
+    .story-title {
+        font-size: 12px;
+        letter-spacing: 4px;
+    }
+    .story-names {
+        font-size: 34px;
+    }
+    .story-intro {
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+    .story-block {
+        width: 100%;
+        max-width: 100%;
+        gap: 12px;
+    }
+    .story-icon {
+        flex: 0 0 48px;
+        width: 48px;
+        height: 48px;
+        font-size: 40px;
+    }
+    .story-icon.rings {
+        font-size: 34px;
+    }
+    .story-text {
+        min-width: 0;
+    }
+    .story-text h3 {
+        font-size: 14px;
+        line-height: 1.6;
+        
+    }
+    .story-text p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    .story-separator {
+        width: 100%;
+        margin: 12px 0 22px;
+    }
+    .story-separator span:first-child,
+    .story-separator span:last-child {
+        width: 35px;
+    }
+    .future-married {
+        padding: 25px 18px;
+        margin-top: 35px;
+    }
+    .future-married h3 {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .future-married p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    .future-decoration span:first-child,
+    .future-decoration span:last-child {
+        width: 35px;
+    }
+    .story-photo {
+        width: 75%;
+        max-width: 520px;
+        margin: 30px auto;
+    }
+    .story-photo img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
     }
 }
 
 @media screen and (min-width: 601px) 
      and (max-width: 1024px){
    .couple-photo-frame {
-        width: 31%;
-        aspect-ratio: 0.57;
-
+        width: 31.1%;
+        height: 58.4%;
         left: 50%;
-        top: 43%;
-        transform: translateX(-50%);
+        top: 58.7%;
+        transform: translate(-50%, -50%);
+        border-radius: 8%;
         overflow: hidden;
     }
     .couple-photo {
         object-fit: cover;
-        object-position: center center;
+        object-position: center 35%;
         width: 100%;
         height: 100%;
         display: block;
+        border-radius: inherit;
+    }
+    .gift-icon {
+        padding: 2rem 1.2rem;
+    }
+    .gifts-text {
+        width: 100%;
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        word-wrap: break-word;
+    }
+    .wedding-gifts {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+        overflow: hidden;
+    }
+    .gifts-script {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gifts-content h2 {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gifts-subtitle {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+    .gifts-content {
+        max-width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+    .story-photo {
+        width: 75%;
+        max-width: 520px;
+        margin: 30px auto;
+    }
+    .story-photo img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
     }
     }
 
 @media screen and (min-width: 1025px) {
    .couple-photo-frame {
-        width: 29%;
-        aspect-ratio: 0.57;
-
+        width: 31.1%;
+        height: 58.4%;
         left: 50%;
-        top: 43%;
-        transform: translateX(-50%);
+        top: 58.7%;
+        transform: translate(-50%, -50%);
+        border-radius: 8%;
         overflow: hidden;
     }
     .couple-photo {
         object-fit: cover;
-        object-position: center center;
+        object-position: center 35%;
         width: 100%;
         height: 100%;
-        display: block;    
+        display: block;
+        border-radius: inherit;
     }
-    
+    .gift-icon {
+        padding: 2rem 1.2rem;
+    }
+    .gifts-text {
+        width: 100%;
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        word-wrap: break-word;
+    }
+    .wedding-gifts {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+        overflow: hidden;
+    }
+    .gifts-script {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gifts-content h2 {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gifts-subtitle {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+    .gifts-content {
+        max-width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+    .story-photo {
+        width: 55%;
+        max-width: 650px;
+        margin: 35px auto;
+    }
+    .story-photo img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+}
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.invitation-page {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.invitation-background {
+    width: 100%;
+    max-width: 100%;
+    display: block;
 }
