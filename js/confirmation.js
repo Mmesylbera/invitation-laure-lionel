@@ -40,14 +40,17 @@ if (sendConfirmation) {
             ]);
 
         if (error) {
-            console.error("Erreur Supabase :", error);
-            confirmationMessage.textContent = 
-            "Une erreur est servenue. Veuillez réessayer.";
             sendConfirmation.disabled = false;
+
+            if (error.code === "23505") {
+                alert("Cette personne a deja confirmé sa présence.");
+            } else { 
+                alert("Une erreur est servenue. Veuillez réessayer.");
+                console.error(error);
+            }
             return;
         }    
-        confirmationMessage.textContent =
-        "Merci ! Votre présence est bien confirmée.";
+        alert("Merci ! Votre présence est bien confirmée.");
 
         guestName.value = "";
         sendConfirmation.disabled = false;
